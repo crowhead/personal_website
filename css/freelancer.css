@@ -36,14 +36,15 @@ h6 {
     font-weight: 700;
 }
 
-hr.star-light,
-hr.star-primary {
+
+hr {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
     border: 0;
     border-top: solid 5px;
     text-align: center;
+    color: #2c3e50;
 }
 
 hr.star-light:after,
@@ -56,14 +57,9 @@ hr.star-primary:after {
     font-family: FontAwesome;
     font-size: 2em;
 }
-
+/*
 hr.star-light {
-    border-color: #fff;
-}
-
-hr.star-light:after {
-    color: #fff;
-    background-color: #18bc9c;
+    border-color: #bbb;
 }
 
 hr.star-primary {
@@ -73,7 +69,7 @@ hr.star-primary {
 hr.star-primary:after {
     color: #2c3e50;
     background-color: #fff;
-}
+}*/
 
 .img-centered {
     margin: 0 auto;
@@ -81,8 +77,8 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
-    background: #18bc9c;
+    color: #bbbbbb;
+    background: #fff;
 }
 
 header .container {
@@ -178,11 +174,12 @@ section {
 section h2 {
     margin: 0;
     font-size: 3em;
+    color: #2c3e50;
 }
 
 section.success {
-    color: #fff;
-    background: #18bc9c;
+    color: #bbbbbb;
+    background: #fff;
 }
 
 @media(max-width:767px) {
